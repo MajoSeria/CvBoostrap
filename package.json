@@ -13,8 +13,7 @@
         "start:debug": "npm run build && node scripts/start-debug.js",
         "predeploy": "npm run build",
         "deploy": "gh-pages -d dist"
-        },
-
+    },
     "description": "A stylish portfolio HTML template built with Bootstrap",
     "keywords": [
         "css",
@@ -46,6 +45,7 @@
         "browser-sync": "2.29.1",
         "chokidar": "3.5.3",
         "concurrently": "6.3.0",
+        "gh-pages": "^6.2.0",
         "postcss": "8.4.21",
         "prettier": "2.8.6",
         "pug": "3.0.2",
